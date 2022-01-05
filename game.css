@@ -1,0 +1,79 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkolivegreen;
+    
+
+}
+
+.start-stop{
+    width:200px;
+    height: 40px;
+    font-size: 2em;
+    background-color: white;
+    color: darkolivegreen;
+    border: solid 1px darkolivegreen;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+#play-area{
+    width: 1200px;
+    height: 550px; 
+    border: solid 1px darkolivegreen;
+    background-image: url("game.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plate{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    bottom: 25px;
+    left: 550px;
+}
+#counter{
+    position:fixed;
+    top:68px;
+    right: 230px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+}
+#lose{
+    position:fixed;
+    top:68px;
+    right: 380px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+}
+#level{
+    position:fixed;
+    top:120px;
+    right: 215px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+}
+#game-over{
+    font-size: 10em;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  display: none;
+  
+}
+#winner{
+    font-size: 10em;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(202, 41, 41);
+  display: none;
+  text-align: center;
+}
+#next-level{
+    
+    font-size: 30px;
+    color: white;
+    
+}
